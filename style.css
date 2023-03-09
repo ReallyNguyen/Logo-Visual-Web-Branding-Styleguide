@@ -95,6 +95,7 @@ header>p {
 
 .font_introduction {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -105,10 +106,10 @@ header>p {
 
 .fonts>.fonts_used {
     display: flex;
-}
-
-.fonts>.fonts_used>h1 {
-    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin: 3rem 0 3rem 5rem;
 }
 
 .orbitron_font {
