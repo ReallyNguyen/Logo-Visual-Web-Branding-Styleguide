@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'montserrat';
-    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'orbitron';
-    src: url('fonts/Orbitron-VariableFont_wght.ttf');
+    src: url('/fonts/Orbitron-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'silkscreen';
-    src: url('fonts/Silkscreen-Regular.ttf');
+    src: url('/fonts/Silkscreen-Regular.ttf');
 }
 
 /*Color*/
@@ -48,8 +48,20 @@ nav {
     margin-top: -90px;
 }
 
+.nav_bar>* {
+    font-family: montserrat;
+}
+
 nav>a {
     color: var(--text-color);
-    font-family: montserrat;
     text-decoration: none;
+}
+
+/*logo*/
+
+.main_square {
+    margin: 5rem auto;
+    background-color: #ffffff;
+    width: 50rem;
+    height: 20rem;
 }
