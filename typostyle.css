@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'montserrat';
-    src: url('Montserrat-VariableFont_wght.ttf');
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'orbitron';
-    src: url('Orbitron-VariableFont_wght.ttf');
+    src: url('fonts/Orbitron-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'silkscreen';
-    src: url('Silkscreen-Regular.ttf');
+    src: url('fonts/Silkscreen-Regular.ttf');
 }
 
 /*Color*/
