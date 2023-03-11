@@ -1,0 +1,55 @@
+/*fonts*/
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'orbitron';
+    src: url('fonts/Orbitron-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'silkscreen';
+    src: url('fonts/Silkscreen-Regular.ttf');
+}
+
+/*Color*/
+
+:root {
+    --background-color: #B1486C;
+    --text-color: #ffffff;
+}
+
+/*home*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: var(--background-color);
+    z-index: 100;
+
+}
+
+.nav_bar {
+    margin-top: -90px;
+}
+
+nav>a {
+    color: var(--text-color);
+    font-family: montserrat;
+    text-decoration: none;
+}
