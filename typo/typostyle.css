@@ -38,7 +38,7 @@
 nav {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 7rem;
     padding-top: 10px;
     height: 40px;
     width: 100%;
@@ -92,7 +92,7 @@ header>p {
     display: block;
     margin: 0;
     border: none;
-    border-top: 1px solid #76B3AF;
+    border-top: 2px solid #ffffff;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -123,6 +123,17 @@ header>p {
     flex-direction: column;
 }
 
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro>hr {
+    width: 20%;
+}
+
 .fonts>.fonts_used {
     display: flex;
     justify-content: center;
@@ -144,7 +155,7 @@ header>p {
     font-family: silkscreen;
 }
 
-/*orbitron*/
+/*orbitron heading*/
 
 .orbitron_container>h1 {
     font-size: 50px;
@@ -177,11 +188,13 @@ header>p {
 .orbitron_headings>.orbitron_bold>h1 {
     font-size: 56px;
     font-family: orbitron;
+    font-weight: 900;
 }
 
 .orbitron_headings>.orbitron_semi>h1 {
     font-size: 48px;
     font-family: orbitron;
+    font-weight: 600;
 }
 
 .orbitron_headings>.orbitron_reg>h1 {
@@ -273,21 +286,25 @@ header>p {
 .montserrat_headings>.montserrat_extrabold>h1 {
     font-size: 64px;
     font-family: montserrat;
+    font-weight: 900;
 }
 
 .montserrat_headings>.montserrat_semibold>h1 {
     font-size: 56px;
     font-family: montserrat;
+    font-weight: 600;
 }
 
 .montserrat_headings>.montserrat_medium>h1 {
     font-size: 48px;
     font-family: montserrat;
+    font-weight: 500;
 }
 
 .montserrat_headings>.montserrat_extralight>h1 {
     font-size: 40px;
     font-family: montserrat;
+    font-weight: 200;
 }
 
 .montserrat_headings>.montserrat_extrabold>p {
@@ -350,7 +367,6 @@ header>p {
     display: flex;
     justify-content: center;
     gap: 90px;
-    margin-top: 30px;
 }
 
 .silkscreen_headings {
@@ -365,12 +381,13 @@ header>p {
     text-align: right;
 }
 
-.silkscreen_headings>.silkscreen_extrabold>h1 {
+.silkscreen_headings>.silkscreen_bold>h1 {
     font-size: 64px;
     font-family: silkscreen;
+    font-weight: 900;
 }
 
-.silkscreen_headings>.silkscreen_semibold>h1 {
+.silkscreen_headings>.silkscreen_reg>h1 {
     font-size: 56px;
     font-family: silkscreen;
 }

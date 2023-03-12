@@ -32,10 +32,14 @@ body {
     color: var(--text-color);
 }
 
+* {
+    font-family: montserrat;
+}
+
 nav {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 7rem;
     padding-top: 10px;
     height: 40px;
     width: 100%;
@@ -62,6 +66,52 @@ nav>a {
 .main_square {
     margin: 5rem auto;
     background-color: #ffffff;
-    width: 50rem;
+    width: 78rem;
     height: 20rem;
+}
+
+main {
+    margin: 3rem 0;
+}
+
+.logo_design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_design>hr {
+    width: 20%;
+}
+
+.title {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.square {
+    background-color: #ffffff;
+    width: 30rem;
+    height: 30rem;
+}
+
+.var_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5rem 0;
+}
+
+.var_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5rem 0;
+}
+
+.var_three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5rem 0;
 }

@@ -18,15 +18,18 @@
 /*Color*/
 
 :root {
-    --background-color: #413C58;
-    --text-color: #76B3AF;
+    --text-color: #ffffff;
 }
 
 /*home*/
 
 .typo {
-    background-color: var(--background-color);
     color: var(--text-color);
+}
+
+body {
+    background: linear-gradient(to bottom right, #363553, #903775, #E8458B);
+    min-height: 80vh;
 }
 
 .home {
@@ -38,11 +41,10 @@
 nav {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 7rem;
     padding-top: 10px;
     height: 40px;
     width: 100%;
-    background-color: var(--background-color);
     z-index: 100;
 
 }
