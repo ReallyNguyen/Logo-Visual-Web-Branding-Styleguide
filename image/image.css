@@ -53,3 +53,31 @@ nav>a {
     font-family: montserrat;
     text-decoration: none;
 }
+
+/* icons */
+
+h1 {
+    font-family: "montserrat";
+    font-size: 3rem;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 3rem 3rem 2rem 3rem;
+    width: 25%;
+}
+
+p {
+    font-family: "montserrat";
+    font-size: larger;
+}
