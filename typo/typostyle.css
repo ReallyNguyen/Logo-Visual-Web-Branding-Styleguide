@@ -39,12 +39,11 @@ nav {
     display: flex;
     justify-content: center;
     gap: 7rem;
-    padding-top: 10px;
+    padding-top: 3rem;
     height: 40px;
     width: 100%;
     background-color: var(--background-color);
     z-index: 100;
-
 }
 
 .nav_bar {
