@@ -54,11 +54,27 @@ nav>a {
     text-decoration: none;
 }
 
+.container {
+    border: 1px solid white;
+    padding: 5rem;
+    margin-top: 1rem;
+}
+
 /* icons */
 
-h1 {
+.heading {
     font-family: "montserrat";
     font-size: 3rem;
+    font-weight: bold;
+}
+
+.line {
+    width: 35%;
+    display: block;
+    margin: 0;
+    border: 1px solid #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 table {
@@ -80,4 +96,54 @@ td {
 p {
     font-family: "montserrat";
     font-size: larger;
+}
+
+.desc {
+    width: 75%;
+    padding: 1rem 0 3rem 0;
+}
+
+/* images */
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.top {
+    display: flex;
+    gap: 6rem;
+}
+
+.bottom {
+    display: flex;
+    gap: 5rem;
+}
+
+.straws,
+.glass,
+.waterbottle {
+    width: 5rem;
+}
+
+.cutlery {
+    width: 10rem;
+}
+
+.coffeecup {
+    width: 7rem;
+    height: 13rem;
+    padding-top: 6rem;
+}
+
+.tumbler {
+    width: 7rem;
+}
+
+.sewing {
+    width: 15rem;
+    height: 15rem;
+    padding-top: 4rem;
 }
