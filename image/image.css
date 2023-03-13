@@ -68,6 +68,10 @@ nav>a {
 
 /* icons */
 
+.icons {
+    width: 80%;
+}
+
 .heading {
     font-family: "montserrat";
     font-size: 3rem;
@@ -105,11 +109,14 @@ p {
 }
 
 .desc {
-    width: 80%;
     padding: 1rem 0 3rem 0;
 }
 
-/* images */
+/* graphics */
+
+.graphics {
+    width: 80%;
+}
 
 .imgs {
     display: flex;
