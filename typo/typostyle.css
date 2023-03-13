@@ -56,6 +56,12 @@ nav>a {
     text-decoration: none;
 }
 
+.container {
+    border: 1px solid white;
+    margin-top: 1rem;
+    padding: 0 5rem 5rem 5rem;
+}
+
 .home_header {
     display: flex;
     margin-top: 70px;
@@ -86,6 +92,10 @@ header>p {
     text-align: left;
 }
 
+.typo_header>img {
+    padding: 0 0 10rem 26rem;
+}
+
 .typo_line {
     width: 350px;
     display: block;
@@ -99,7 +109,7 @@ header>p {
 .good_design {
     font-family: montserrat;
     font-size: 50px;
-    margin-top: 90px;
+    margin-top: -18rem;
 }
 
 .desc>p {

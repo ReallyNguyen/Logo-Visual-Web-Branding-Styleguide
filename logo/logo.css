@@ -18,8 +18,8 @@
 /*Color*/
 
 :root {
-    --background-color: #B1486C;
-    --text-color: #ffffff;
+    --background-color: #ffffff;
+    --text-color: #B1486C;
 }
 
 /*home*/
@@ -61,17 +61,46 @@ nav>a {
     text-decoration: none;
 }
 
+main {
+    border: 1px solid #B1486C;
+    padding: 5rem;
+}
+
 /*logo*/
 
-.main_square {
-    margin: 5rem auto;
-    background-color: #ffffff;
-    width: 78rem;
-    height: 20rem;
+.container_formation {
+    background-image: url(/logo/formation.png);
+    background-size: cover;
+    height: 68rem;
+    display: flex;
+    position: relative;
+    z-index: -1;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.formation {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 45rem 0 3rem;
+}
+
+.formation>* {
+    color: white;
+}
+
+.formation>hr {
+    padding: 0 0 0 0;
+    width: 10rem;
 }
 
 main {
     margin: 3rem 0;
+}
+
+main>hr {
+    margin: 7rem 0;
+    border: 1px solid #B1486C;
 }
 
 .logo_design {
@@ -85,33 +114,56 @@ main {
 }
 
 .title {
-    text-align: center;
-    margin: 5rem 0;
+    display: flex;
+    margin: 28rem 0 0 13rem;
 }
 
-.square {
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro>hr {
+    width: 20%;
+    border: 1px solid #B1486C;
+}
+
+.closer_look {
+    display: flex;
+    flex-direction: column;
+}
+
+.wordmark_square {
+    display: flex;
     background-color: #ffffff;
-    width: 30rem;
-    height: 30rem;
+    border: 1px solid #B1486C;
+    width: 100%;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
 }
 
-.var_one {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 5rem 0;
+.wordmark_square>h1 {
+    color: #B1486C;
+    font-size: 100px;
+    font-family: orbitron;
 }
 
-.var_two {
+.rough_img {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 5rem 0;
 }
 
-.var_three {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 5rem 0;
+.rough_img>img {
+    width: 30%;
+    height: auto;
+}
+
+.rough_img>hr {
+    color: #B1486C;
+}
+
+.rough_drafts>p {
+    padding: 5rem 0 0 0;
 }
