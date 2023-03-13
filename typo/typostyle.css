@@ -38,6 +38,10 @@ nav {
     z-index: 100;
 }
 
+hr {
+    border: 1px solid #76B3AF;
+}
+
 .nav_bar {
     margin-top: -90px;
 }
@@ -49,7 +53,7 @@ nav>a {
 }
 
 .container {
-    border: 1px solid white;
+    border: 1px solid #76B3AF;
     margin-top: 1rem;
     padding: 0 5rem 5rem 5rem;
 }
@@ -93,7 +97,7 @@ header>p {
     display: block;
     margin: 0;
     border: none;
-    border-top: 2px solid #ffffff;
+    border-top: 2px solid #76B3AF;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -186,13 +190,13 @@ header>p {
 .orbitron_left {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .orbitron_right {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .orbitron_headings>h1 {
@@ -213,7 +217,7 @@ header>p {
 }
 
 .orbitron_header1>p {
-    text-align: right;
+    text-align: left;
     font-family: 'orbitron';
 }
 
@@ -224,7 +228,7 @@ header>p {
 }
 
 .orbitron_header2>p {
-    text-align: right;
+    text-align: left;
     font-family: 'orbitron';
 }
 
@@ -236,7 +240,7 @@ header>p {
 }
 
 .orbitron_header3>p {
-    text-align: right;
+    text-align: left;
     font-family: 'orbitron';
 }
 
@@ -247,31 +251,31 @@ header>p {
 }
 
 .orbitron_header4>p {
-    text-align: right;
+    text-align: left;
     font-family: 'orbitron';
 }
 
 .orbitron_header5>h5 {
-    text-align: right;
+    text-align: left;
     font-size: 32px;
     font-family: 'orbitron';
     font-weight: 200;
 }
 
 .orbitron_header5>p {
-    text-align: right;
+    text-align: left;
     font-family: 'orbitron';
 }
 
 .orbitron_header6>h6 {
-    text-align: right;
+    text-align: left;
     font-size: 24px;
     font-family: 'orbitron';
     font-weight: 200;
 }
 
 .orbitron_header6>p {
-    text-align: right;
+    text-align: left;
     font-family: 'orbitron';
 }
 
@@ -339,13 +343,13 @@ header>p {
 .montserrat_left {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .montserrat_right {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .montserrat_headings>h1 {
@@ -361,7 +365,7 @@ header>p {
 }
 
 .montserrat_header1>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
@@ -372,19 +376,19 @@ header>p {
 }
 
 .montserrat_header2>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
 .montserrat_header3>h3 {
-    text-align: right;
+    text-align: left;
     font-size: 48px;
     font-family: 'montserrat';
     font-weight: 500;
 }
 
 .montserrat_header3>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
@@ -400,26 +404,26 @@ header>p {
 }
 
 .montserrat_header5>h5 {
-    text-align: right;
+    text-align: left;
     font-size: 32px;
     font-family: 'montserrat';
     font-weight: 200;
 }
 
 .montserrat_header5>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
 .montserrat_header6>h6 {
-    text-align: right;
+    text-align: left;
     font-size: 24px;
     font-family: 'montserrat';
     font-weight: 200;
 }
 
 .montserrat_header6>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
@@ -475,13 +479,13 @@ header>p {
 .silkscreen_left {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .silkscreen_right {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .silkscreen_headings>h1 {
@@ -497,7 +501,7 @@ header>p {
 }
 
 .silkscreen_header1>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
@@ -508,7 +512,7 @@ header>p {
 }
 
 .silkscreen_header2>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
@@ -520,7 +524,7 @@ header>p {
 }
 
 .silkscreen_header3>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
@@ -531,31 +535,31 @@ header>p {
 }
 
 .silkscreen_header4>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
 .silkscreen_header5>h5 {
-    text-align: right;
+    text-align: left;
     font-size: 32px;
     font-family: 'silkscreen';
     font-weight: 200;
 }
 
 .silkscreen_header5>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
 .silkscreen_header6>h6 {
-    text-align: right;
+    text-align: left;
     font-size: 24px;
     font-family: 'silkscreen';
     font-weight: 200;
 }
 
 .silkscreen_header6>p {
-    text-align: right;
+    text-align: left;
     font-family: 'montserrat';
 }
 
