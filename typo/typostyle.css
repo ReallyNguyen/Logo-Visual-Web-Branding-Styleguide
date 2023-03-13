@@ -249,7 +249,8 @@ header>p {
     margin-top: 30px;
 }
 
-.about_orbitron>p {
+.orbitron_desc {
+    font-family: montserrat;
     text-align: left;
 }
 
@@ -345,11 +346,11 @@ header>p {
 
 .montserrat_size>p {
     font-family: montserrat;
-
 }
 
 .about_montserrat>p {
-    text-align: right;
+    text-align: left;
+    font-family: montserrat;
 }
 
 /*silkscreen*/
@@ -430,9 +431,9 @@ header>p {
 
 .silkscreen_size>p {
     font-family: montserrat;
-
 }
 
 .about_silkscreen>p {
-    text-align: center;
+    text-align: left;
+    font-family: montserrat;
 }

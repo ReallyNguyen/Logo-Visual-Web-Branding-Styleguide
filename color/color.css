@@ -190,3 +190,8 @@ p {
 .green-bg {
     background-color: var(--hunter-green);
 }
+
+.example {
+    display: flex;
+    align-content: center;
+}
