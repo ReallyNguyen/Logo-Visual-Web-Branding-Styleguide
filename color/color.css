@@ -36,6 +36,7 @@ body {
     margin: 90px;
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: "Montserrat";
 }
 
 nav {
@@ -58,4 +59,134 @@ nav>a {
     color: var(--text-color);
     font-family: montserrat;
     text-decoration: none;
+}
+
+.container {
+    border: 1px solid white;
+    padding: 5rem;
+    margin-top: 1rem;
+}
+
+/* header */
+
+.header>img {
+    padding-left: 40rem;
+}
+
+.line {
+    width: 35%;
+    margin: 0;
+    border: 1px solid #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.heading {
+    font-family: "montserrat";
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: -10rem;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    line-height: 2.5;
+    padding-top: 3rem;
+}
+
+p {
+    font-size: larger;
+}
+
+.section-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding-top: 3rem;
+}
+
+.section-heading>hr {
+    width: 30%;
+}
+
+.intro-desc {
+    padding-bottom: 2rem;
+}
+
+/* colours */
+
+.colour-card {
+    background-color: var(--text-color);
+    padding: 3rem 3rem 2rem 3rem;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.colour-circle {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.colour-text {
+    width: 70%;
+}
+
+.colour-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.desc,
+.white {
+    color: black;
+}
+
+.white-bg {
+    color: var(--text-color);
+    border: 1px solid black;
+}
+
+.violet {
+    color: var(--russian-violet);
+}
+
+.violet-bg {
+    background-color: var(--russian-violet);
+}
+
+.orange {
+    color: var(--syracuse-orange);
+}
+
+.orange-bg {
+    background-color: var(--syracuse-orange);
+}
+
+.yellow {
+    color: var(--golden-yellow);
+}
+
+.yellow-bg {
+    background-color: var(--golden-yellow);
+}
+
+.pink {
+    color: var(--dogwood-rose);
+}
+
+.pink-bg {
+    background-color: var(--dogwood-rose);
+}
+
+.green {
+    color: var(--hunter-green);
+}
+
+.green-bg {
+    background-color: var(--hunter-green);
 }
